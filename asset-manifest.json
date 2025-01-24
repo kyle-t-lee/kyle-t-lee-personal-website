@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.eec81abc.css",
-    "main.js": "/static/js/main.0190cd37.js",
-    "static/media/IMG_3021.JPEG": "/static/media/IMG_3021.dd4d9c10bae5308a219b.JPEG",
-    "static/media/roche-logo.png": "/static/media/roche-logo.4f9f9faaa5a76413f5f4.png",
-    "static/media/twitter-logo.png": "/static/media/twitter-logo.22e48c646dd79842c940.png",
-    "static/media/jpmorgan-logo.png": "/static/media/jpmorgan-logo.b7f5f445b5957b98dda4.png",
-    "index.html": "/index.html",
-    "main.eec81abc.css.map": "/static/css/main.eec81abc.css.map",
-    "main.0190cd37.js.map": "/static/js/main.0190cd37.js.map"
+    "main.css": "/personal-website/static/css/main.eec81abc.css",
+    "main.js": "/personal-website/static/js/main.8311bbef.js",
+    "static/media/IMG_3021.JPEG": "/personal-website/static/media/IMG_3021.dd4d9c10bae5308a219b.JPEG",
+    "static/media/roche-logo.png": "/personal-website/static/media/roche-logo.4f9f9faaa5a76413f5f4.png",
+    "static/media/twitter-logo.png": "/personal-website/static/media/twitter-logo.22e48c646dd79842c940.png",
+    "static/media/jpmorgan-logo.png": "/personal-website/static/media/jpmorgan-logo.b7f5f445b5957b98dda4.png",
+    "index.html": "/personal-website/index.html",
+    "main.eec81abc.css.map": "/personal-website/static/css/main.eec81abc.css.map",
+    "main.8311bbef.js.map": "/personal-website/static/js/main.8311bbef.js.map"
   },
   "entrypoints": [
     "static/css/main.eec81abc.css",
-    "static/js/main.0190cd37.js"
+    "static/js/main.8311bbef.js"
   ]
 }
