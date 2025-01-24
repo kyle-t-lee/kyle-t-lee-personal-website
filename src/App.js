@@ -7,6 +7,26 @@ import jpLogo from './assets/jpmorgan-logo.png';
 import twitterLogo from './assets/twitter-logo.png';
 import rocheLogo from './assets/roche-logo.png';
 import spirentLogo from './assets/spirent-logo.png';
+import githubLogo from './assets/github-logo.png';
+import linkedinLogo from './assets/linkedin-logo.png';
+import javaLogo from './logos/java-logo.png';
+import pythonLogo from './logos/python-logo.png';
+import matlabLogo from './logos/matlab-logo.png';
+import scalaLogo from './logos/scala-logo.png';
+import golangLogo from './logos/golang-logo.png';
+import numpyLogo from './logos/numpy-logo.png';
+import tensorflowLogo from './logos/tensorflow-logo.png';
+import pandasLogo from './logos/pandas-logo.png';
+import springbootLogo from './logos/springboot-logo.png';
+import jenkinsLogo from './logos/jenkins-logo.png';
+import harnessLogo from './logos/harness-logo.png';
+import githubActionsLogo from './logos/github-actions-logo.png';
+import gcpLogo from './logos/gcp-logo.png';
+import awsLogo from './logos/aws-logo.png';
+import bitbucketLogo from './logos/bitbucket-logo.png';
+import neo4jLogo from './logos/neo4j-logo.png';
+import cockroachdbLogo from './logos/cockroachdb-logo.png';
+import mysqlLogo from './logos/mysql-logo.png';
 
 function App() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -279,23 +299,23 @@ function App() {
             <h3>Programming Languages</h3>
             <div className="skills-list">
               <div className="skill-item">
-                <img src="/logos/java-logo.png" alt="Java" className="skill-logo" />
+                <img src={javaLogo} alt="Java" className="skill-logo" />
                 <span>Java</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/python-logo.png" alt="Python" className="skill-logo" />
+                <img src={pythonLogo} alt="Python" className="skill-logo" />
                 <span>Python</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/matlab-logo.png" alt="MATLAB" className="skill-logo" />
+                <img src={matlabLogo} alt="MATLAB" className="skill-logo" />
                 <span>MATLAB</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/scala-logo.png" alt="Scala" className="skill-logo" />
+                <img src={scalaLogo} alt="Scala" className="skill-logo" />
                 <span>Scala</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/golang-logo.png" alt="GoLang" className="skill-logo" />
+                <img src={golangLogo} alt="GoLang" className="skill-logo" />
                 <span>GoLang</span>
               </div>
             </div>
@@ -305,19 +325,19 @@ function App() {
             <h3>Frameworks & Libraries</h3>
             <div className="skills-list">
               <div className="skill-item">
-                <img src="/logos/numpy-logo.png" alt="NumPy" className="skill-logo" />
+                <img src={numpyLogo} alt="NumPy" className="skill-logo" />
                 <span>NumPy</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/tensorflow-logo.png" alt="TensorFlow" className="skill-logo" />
+                <img src={tensorflowLogo} alt="TensorFlow" className="skill-logo" />
                 <span>TensorFlow</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/pandas-logo.png" alt="Pandas" className="skill-logo" />
+                <img src={pandasLogo} alt="Pandas" className="skill-logo" />
                 <span>Pandas</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/springboot-logo.png" alt="SpringBoot" className="skill-logo" />
+                <img src={springbootLogo} alt="SpringBoot" className="skill-logo" />
                 <span>SpringBoot</span>
               </div>
             </div>
@@ -327,15 +347,15 @@ function App() {
             <h3>CI/CD</h3>
             <div className="skills-list">
               <div className="skill-item">
-                <img src="/logos/jenkins-logo.png" alt="Jenkins" className="skill-logo" />
+                <img src={jenkinsLogo} alt="Jenkins" className="skill-logo" />
                 <span>Jenkins</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/harness-logo.png" alt="Harness" className="skill-logo" />
+                <img src={harnessLogo} alt="Harness" className="skill-logo" />
                 <span>Harness</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/github-actions-logo.png" alt="GitHub Actions" className="skill-logo" />
+                <img src={githubActionsLogo} alt="GitHub Actions" className="skill-logo" />
                 <span>GitHub Actions</span>
               </div>
             </div>
@@ -345,11 +365,11 @@ function App() {
             <h3>Cloud Platforms</h3>
             <div className="skills-list">
               <div className="skill-item">
-                <img src="/logos/gcp-logo.png" alt="Google Cloud" className="skill-logo" />
+                <img src={gcpLogo} alt="Google Cloud" className="skill-logo" />
                 <span>Google Cloud</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/aws-logo.png" alt="AWS" className="skill-logo" />
+                <img src={awsLogo} alt="AWS" className="skill-logo" />
                 <span>AWS</span>
               </div>
             </div>
@@ -359,11 +379,14 @@ function App() {
             <h3>Version Control</h3>
             <div className="skills-list">
               <div className="skill-item">
-                <img src="/logos/github-logo.png" alt="GitHub" className="skill-logo" />
+                <img 
+                  src={process.env.PUBLIC_URL + '/assets/github-logo.png'} 
+                  alt="GitHub"
+                />
                 <span>GitHub</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/bitbucket-logo.png" alt="BitBucket" className="skill-logo" />
+                <img src={bitbucketLogo} alt="BitBucket" className="skill-logo" />
                 <span>BitBucket</span>
               </div>
             </div>
@@ -373,15 +396,15 @@ function App() {
             <h3>Databases</h3>
             <div className="skills-list">
               <div className="skill-item">
-                <img src="/logos/neo4j-logo.png" alt="Neo4j" className="skill-logo" />
+                <img src={neo4jLogo} alt="Neo4j" className="skill-logo" />
                 <span>Neo4j</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/cockroachdb-logo.png" alt="CockroachDB" className="skill-logo" />
+                <img src={cockroachdbLogo} alt="CockroachDB" className="skill-logo" />
                 <span>CockroachDB</span>
               </div>
               <div className="skill-item">
-                <img src="/logos/mysql-logo.png" alt="MySQL" className="skill-logo" />
+                <img src={mysqlLogo} alt="MySQL" className="skill-logo" />
                 <span>MySQL</span>
               </div>
             </div>
