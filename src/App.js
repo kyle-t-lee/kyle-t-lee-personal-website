@@ -8,7 +8,6 @@ import twitterLogo from './assets/twitter-logo.png';
 import rocheLogo from './assets/roche-logo.png';
 import spirentLogo from './assets/spirent-logo.png';
 import githubLogo from './logos/github-logo.png';
-import linkedinLogo from './logos/linkedin-logo.png';
 import javaLogo from './logos/java-logo.png';
 import pythonLogo from './logos/python-logo.png';
 import matlabLogo from './logos/matlab-logo.png';
@@ -380,8 +379,9 @@ function App() {
             <div className="skills-list">
               <div className="skill-item">
                 <img 
-                  src={process.env.PUBLIC_URL + '/assets/github-logo.png'} 
+                  src={githubLogo}
                   alt="GitHub"
+                  className="skill-logo"
                 />
                 <span>GitHub</span>
               </div>
