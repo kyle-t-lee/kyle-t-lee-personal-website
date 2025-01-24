@@ -1,3 +1,7 @@
+# Kyle Lee's Personal Website
+
+This repository contains the source code for Kyle Lee's personal website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
