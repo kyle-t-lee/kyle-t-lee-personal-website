@@ -194,6 +194,14 @@ p {
   margin-bottom: 20px;
 }
 
+.company-logo {
+  width: 120px;  /* Fixed width */
+  height: 120px; /* Fixed height */
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* Makes logos white */
+  margin-right: 20px;
+}
+
 .company-info {
   display: flex;
   flex-direction: column;
@@ -211,6 +219,15 @@ p {
   color: #e6f1ff;
   font-size: 1rem;
   margin: 5px 0;
+}
+
+.experience-title h3 {
+  color: #e6f1ff;  /* Makes job title white */
+  margin: 5px 0;
+}
+
+.date {
+  color: #8892b0;  /* Slightly muted color for date */
 }
 
 .experience-bullets {
@@ -243,6 +260,13 @@ p {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  .company-logo {
+    width: 100px;  /* Slightly smaller on mobile but still fixed */
+    height: 100px;
+    margin-right: 0;
+    margin-bottom: 15px;
   }
 
   .company-info {
@@ -752,9 +776,10 @@ html {
   }
 
   .company-logo {
-    width: 60px;
-    height: auto;
-    margin-bottom: 0.5rem;
+    width: 100px;  /* Slightly smaller on mobile but still fixed */
+    height: 100px;
+    margin-right: 0;
+    margin-bottom: 15px;
   }
 
   .company-location {
