@@ -78,15 +78,17 @@ function App() {
           {/* JPMorgan */}
           <div className="experience-item">
             <div className="experience-header">
-              <img src={jpLogo} alt="JPMorgan Chase & Co Logo" className="company-logo" />
               <div className="experience-title">
                 <div className="company-info">
-                  <p className="company">JPMorgan Chase & Co</p>
-                  <p className="work-location">📍 New York, NY</p>
+                  <div className="company-header">
+                    <p className="company">JPMorgan Chase & Co</p>
+                    <p className="work-location">📍 New York, NY</p>
+                  </div>
                   <h3>Associate Software Engineer III</h3>
                   <p className="date">February 2023 - Present</p>
                 </div>
               </div>
+              <img src={jpLogo} alt="JPMorgan Chase & Co Logo" className="company-logo" />
             </div>
             <ul className="experience-bullets">
               <li>Build new digital retail bank for Germany market under the International Consumer Banking (ICB) organization at the firm</li>
