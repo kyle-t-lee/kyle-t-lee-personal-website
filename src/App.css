@@ -170,111 +170,102 @@ p {
 
 /* Experience Section */
 .experience-container {
-  max-width: 1200px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 100%;
   padding: 0 20px;
-  margin: 0 auto;  /* Center the container */
 }
 
 .experience-item {
-  background: rgba(17, 34, 64, 0.7);
-  padding: 35px;
+  background: #ffffff;
   border-radius: 8px;
-  margin-bottom: 20px;
-  border: 1px solid rgba(100, 255, 218, 0.1);
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
   box-sizing: border-box;
-  text-align: left;  /* Left align content */
 }
 
 .experience-header {
   display: flex;
-  align-items: flex-start;  /* Align to top */
-  margin-bottom: 25px;
-  gap: 20px;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.company-logo {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+}
+
+.experience-title {
+  flex: 1;
+  min-width: 200px;
 }
 
 .company-info {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;  /* Slightly increased gap */
+  gap: 0.5rem;
 }
 
-.experience-item .company {
-  color: #64ffda;
-  font-weight: 600;
-  font-size: 1.5em;
-  margin-bottom: 0;  /* Removed extra margin */
-  line-height: 1.4;  /* Added line height for consistent spacing */
+.company-location {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-.experience-item h3 {
-  color: #e6f1ff;
-  margin: 0;
-  font-size: 1.2em;
-  line-height: 1.4;  /* Added line height for consistent spacing */
-}
-
-.experience-item .date {
-  color: #8892b0;
-  font-size: 0.9em;
-  margin: 0;  /* Removed margin to rely on gap */
-  line-height: 1.4;  /* Added line height for consistent spacing */
-}
-
+/* Make bullet points wrap properly */
 .experience-item ul {
-  list-style: none;  /* Remove default bullets */
-  padding-left: 0;   /* Remove default padding */
-  margin-right: 20px;
-  margin-top: 20px;
+  padding-left: 20px;
+  margin: 0;
 }
 
-.experience-item ul li {
-  padding-left: 25px;
-  position: relative;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.experience-item li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .experience-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .company-location {
+    justify-content: center;
+  }
+
+  .experience-item {
+    padding: 15px;
+  }
+
+  .company-logo {
+    width: 50px;
+  }
+}
+
+/* Similar adjustments for education and projects sections */
+.education-container,
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   max-width: 100%;
-  padding-right: 30px;
-  margin-bottom: 15px;
-  line-height: 1.5;
-  color: #e6f1ff;
+  padding: 0 20px;
 }
 
-/* Add custom bullet point */
-.experience-item ul li::before {
-  content: "▹";     /* Custom arrow character */
-  position: absolute;
-  left: 0;
-  color: #64ffda;   /* Same color as other accents */
-  font-size: 1.2em;
-  line-height: 1.5;
-}
-
-/* Remove the previous marker styling */
-.experience-item ul li::marker {
-  display: none;
-}
-
-.company-logo {
-  width: 120px;   /* Increased from 80px */
-  height: 120px;  /* Increased from 80px to match text height */
-  object-fit: contain;
-  filter: brightness(0) invert(0.9);
-  transition: filter 0.3s ease;
-  margin-top: 5px;  /* Small adjustment to align with text */
-}
-
-.experience-title {
-  flex: 1;
-  text-align: left;
-}
-
-/* Optional: Adjust hover effect */
-.company-logo:hover {
-  filter: brightness(1) invert(0);
-  transition: filter 0.3s ease;
+.education-item,
+.project-card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 /* Projects Section */
@@ -687,13 +678,6 @@ html {
   color: #8892b0;
   font-size: 0.9em;
   margin-top: 5px;
-}
-
-.company-location {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
 }
 
 .work-location {
