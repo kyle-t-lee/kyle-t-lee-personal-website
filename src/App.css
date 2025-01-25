@@ -178,76 +178,75 @@ p {
 }
 
 .experience-item {
-  background: #ffffff;
+  background: rgba(17, 34, 64, 0.7);
   border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  padding: 25px;
+  border: 1px solid rgba(100, 255, 218, 0.1);
   box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
-.experience-header {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-}
-
-.company-logo {
-  width: 60px;
-  height: auto;
-  object-fit: contain;
-}
-
-.experience-title {
-  flex: 1;
-  min-width: 200px;
-}
-
-.company-info {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.company-location {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-/* Make bullet points wrap properly */
-.experience-item ul {
-  padding-left: 20px;
+.company {
+  color: #64ffda;
+  font-weight: 600;
+  font-size: 1.5em;
   margin: 0;
 }
 
-.experience-item li {
-  margin-bottom: 0.5rem;
-  line-height: 1.5;
+.work-location {
+  color: #e6f1ff;
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.experience-bullets {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+.experience-bullets li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #e6f1ff;
+  white-space: normal;
   word-wrap: break-word;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
+.experience-bullets li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #64ffda;
+}
+
+@media screen and (max-width: 768px) {
   .experience-header {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  .company-location {
-    justify-content: center;
+  .company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
   }
 
-  .experience-item {
-    padding: 15px;
+  .work-location {
+    margin: 5px 0;
   }
 
-  .company-logo {
-    width: 50px;
+  .experience-bullets {
+    padding-left: 0;
+  }
+
+  .experience-bullets li {
+    text-align: left;
+    padding-left: 20px;
   }
 }
 

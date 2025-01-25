@@ -81,16 +81,14 @@ function App() {
               <img src={jpLogo} alt="JPMorgan Chase & Co Logo" className="company-logo" />
               <div className="experience-title">
                 <div className="company-info">
-                  <div className="company-location">
-                    <p className="company">JPMorgan Chase & Co</p>
-                    <span className="work-location">📍 New York, NY</span>
-                  </div>
+                  <p className="company">JPMorgan Chase & Co</p>
+                  <p className="work-location">📍 New York, NY</p>
                   <h3>Associate Software Engineer III</h3>
                   <p className="date">February 2023 - Present</p>
                 </div>
               </div>
             </div>
-            <ul>
+            <ul className="experience-bullets">
               <li>Build new digital retail bank for Germany market under the International Consumer Banking (ICB) organization at the firm</li>
               <li>Created customer open and close account journeys within ICB Germany leveraging Temporal workflow engine</li>
               <li>Designed and built team internal CI/CD build+deploy pipeline using shared workflows within GitHub Actions</li>
