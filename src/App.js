@@ -104,20 +104,18 @@ function App() {
               <img 
                 src={twitterLogo} 
                 alt="Twitter Logo" 
-                className="company-logo twitter-logo"
+                className="company-logo"
               />
               <div className="experience-title">
                 <div className="company-info">
-                  <div className="company-location">
-                    <p className="company">Twitter, Inc.</p>
-                    <span className="work-location">📍 New York, NY</span>
-                  </div>
+                  <p className="company">Twitter, Inc.</p>
+                  <p className="work-location">📍 New York, NY</p>
                   <h3>Software Engineer II</h3>
                   <p className="date">July 2021 - February 2023</p>
                 </div>
               </div>
             </div>
-            <ul>
+            <ul className="experience-bullets">
               <li>Constructed CI Jenkins pipeline infra to upload sandbox player to AWS S3 for Spaces audio testing on iOS and Android platforms</li>
               <li>Covered 80% of critical test cases of media backend service endpoints as part of building confidence in data center migration</li>
               <li>Managed Scala integration test infrastructure and increased coverage for media upload service endpoints by over 50%</li>
@@ -129,19 +127,17 @@ function App() {
           {/* Roche */}
           <div className="experience-item">
             <div className="experience-header">
-              <img src={rocheLogo} alt="Roche Diagnostics Logo" className="company-logo" />
+              <img src={rocheLogo} alt="Roche Logo" className="company-logo" />
               <div className="experience-title">
                 <div className="company-info">
-                  <div className="company-location">
-                    <p className="company">Roche Diagnostics</p>
-                    <span className="work-location">📍 Indianapolis, IN</span>
-                  </div>
+                  <p className="company">Roche Diagnostics</p>
+                  <p className="work-location">📍 Indianapolis, IN</p>
                   <h3>Data Analytics Intern</h3>
                   <p className="date">May 2020 - July 2020</p>
                 </div>
               </div>
             </div>
-            <ul>
+            <ul className="experience-bullets">
               <li>Automated data processing of open/closed purchase order reports from SAP data using Excel VBA</li>
               <li>Built Tableau Dashboards using retail sales data to compare diabetes care products sold across retailers and manufacturers</li>
             </ul>
@@ -150,19 +146,17 @@ function App() {
           {/* Spirent */}
           <div className="experience-item">
             <div className="experience-header">
-              <img src={spirentLogo} alt="Spirent Communications Logo" className="company-logo" />
+              <img src={spirentLogo} alt="Spirent Logo" className="company-logo" />
               <div className="experience-title">
                 <div className="company-info">
-                  <div className="company-location">
-                    <p className="company">Spirent Communications</p>
-                    <span className="work-location">📍 Eatontown, NJ</span>
-                  </div>
+                  <p className="company">Spirent Communications</p>
+                  <p className="work-location">📍 Eatontown, NJ</p>
                   <h3>Software Engineering Intern</h3>
                   <p className="date">June 2019 - August 2019</p>
                 </div>
               </div>
             </div>
-            <ul>
+            <ul className="experience-bullets">
               <li>Developed automation test framework and utilities to be used during module debug or system integration using Python scripts</li>
               <li>Designed methods, tools, and test automation scripts to improve development test efficiency</li>
               <li>Assisted with design verification testing of highly complex systems used for wireless physical layer testing</li>
