@@ -193,7 +193,6 @@ p {
   align-items: center;
   gap: 20px;
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .company-logo {
@@ -207,9 +206,10 @@ p {
 .company-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;  /* Left align the content */
   gap: 8px;
   width: 100%;
+  text-align: left;
 }
 
 .company {
@@ -229,11 +229,13 @@ p {
   color: #e6f1ff;
   font-size: 1.2em;
   margin: 5px 0;
+  text-align: left;
 }
 
 .date {
   color: #8892b0;
   font-size: 0.9em;
+  text-align: left;
 }
 
 .experience-bullets {
@@ -262,6 +264,16 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .company-info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .experience-title h3,
+  .date {
+    text-align: center;
+  }
+
   .company-logo {
     width: 100px;
     height: 100px;
