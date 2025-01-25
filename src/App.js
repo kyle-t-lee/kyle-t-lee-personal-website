@@ -80,10 +80,7 @@ function App() {
             <div className="experience-header">
               <div className="experience-title">
                 <div className="company-info">
-                  <div className="company-header">
-                    <p className="company">JPMorgan Chase & Co</p>
-                    <p className="work-location">📍 New York, NY</p>
-                  </div>
+                  <p className="company">JPMorgan Chase & Co</p>
                   <h3>Associate Software Engineer III</h3>
                   <p className="date">February 2023 - Present</p>
                 </div>
