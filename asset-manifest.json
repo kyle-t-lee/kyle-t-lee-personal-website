@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.c302b3a6.css",
-    "main.js": "/personal-website/static/js/main.84076b87.js",
+    "main.css": "/personal-website/static/css/main.a4f63f2d.css",
+    "main.js": "/personal-website/static/js/main.4c9b7c1a.js",
     "static/media/IMG_3021.JPEG": "/personal-website/static/media/IMG_3021.dd4d9c10bae5308a219b.JPEG",
     "static/media/jenkins-logo.png": "/personal-website/static/media/jenkins-logo.27801d128e0b12fdba5a.png",
     "static/media/cockroachdb-logo.png": "/personal-website/static/media/cockroachdb-logo.ab9cec32bef58cc6b946.png",
@@ -21,11 +21,11 @@
     "static/media/neo4j-logo.png": "/personal-website/static/media/neo4j-logo.e1e0f30a4b1da0310ff7.png",
     "static/media/scala-logo.png": "/personal-website/static/media/scala-logo.f60da3facdb61bf80843.png",
     "index.html": "/personal-website/index.html",
-    "main.c302b3a6.css.map": "/personal-website/static/css/main.c302b3a6.css.map",
-    "main.84076b87.js.map": "/personal-website/static/js/main.84076b87.js.map"
+    "main.a4f63f2d.css.map": "/personal-website/static/css/main.a4f63f2d.css.map",
+    "main.4c9b7c1a.js.map": "/personal-website/static/js/main.4c9b7c1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c302b3a6.css",
-    "static/js/main.84076b87.js"
+    "static/css/main.a4f63f2d.css",
+    "static/js/main.4c9b7c1a.js"
   ]
 }
