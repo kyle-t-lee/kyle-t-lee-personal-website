@@ -184,6 +184,20 @@ p {
   border: 1px solid rgba(100, 255, 218, 0.1);
   box-sizing: border-box;
   margin-bottom: 20px;
+  width: 100%;
+}
+
+.experience-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .company {
@@ -211,8 +225,10 @@ p {
   margin-bottom: 10px;
   line-height: 1.6;
   color: #e6f1ff;
-  white-space: normal;
+  overflow-wrap: break-word;
   word-wrap: break-word;
+  hyphens: auto;
+  max-width: 100%;
 }
 
 .experience-bullets li::before {
@@ -230,14 +246,14 @@ p {
   }
 
   .company-info {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
     align-items: center;
-    gap: 5px;
+    text-align: center;
   }
 
   .work-location {
-    margin: 5px 0;
+    text-align: center;
+    width: 100%;
   }
 
   .experience-bullets {
@@ -247,6 +263,7 @@ p {
   .experience-bullets li {
     text-align: left;
     padding-left: 20px;
+    white-space: normal;
   }
 }
 
