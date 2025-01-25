@@ -78,6 +78,7 @@ function App() {
           {/* JPMorgan */}
           <div className="experience-item">
             <div className="experience-header">
+              <img src={jpLogo} alt="JPMorgan Chase & Co Logo" className="company-logo" />
               <div className="experience-title">
                 <div className="company-info">
                   <p className="company">JPMorgan Chase & Co</p>
@@ -85,7 +86,6 @@ function App() {
                   <p className="date">February 2023 - Present</p>
                 </div>
               </div>
-              <img src={jpLogo} alt="JPMorgan Chase & Co Logo" className="company-logo" />
             </div>
             <ul className="experience-bullets">
               <li>Build new digital retail bank for Germany market under the International Consumer Banking (ICB) organization at the firm</li>
@@ -108,7 +108,6 @@ function App() {
               <div className="experience-title">
                 <div className="company-info">
                   <p className="company">Twitter, Inc.</p>
-                  <p className="work-location">📍 New York, NY</p>
                   <h3>Software Engineer II</h3>
                   <p className="date">July 2021 - February 2023</p>
                 </div>
@@ -130,7 +129,6 @@ function App() {
               <div className="experience-title">
                 <div className="company-info">
                   <p className="company">Roche Diagnostics</p>
-                  <p className="work-location">📍 Indianapolis, IN</p>
                   <h3>Data Analytics Intern</h3>
                   <p className="date">May 2020 - July 2020</p>
                 </div>
@@ -149,7 +147,6 @@ function App() {
               <div className="experience-title">
                 <div className="company-info">
                   <p className="company">Spirent Communications</p>
-                  <p className="work-location">📍 Eatontown, NJ</p>
                   <h3>Software Engineering Intern</h3>
                   <p className="date">June 2019 - August 2019</p>
                 </div>

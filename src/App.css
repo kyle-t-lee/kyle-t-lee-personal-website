@@ -189,9 +189,8 @@ p {
 
 .experience-header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   gap: 15px;
   margin-bottom: 15px;
 }
@@ -200,19 +199,21 @@ p {
   flex: 1;
 }
 
+.company-logo {
+  width: 150px;  /* Increased from 120px */
+  height: 150px; /* Increased from 120px */
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  padding: 5px 0;
+}
+
 .company-info {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 5px;
   width: 100%;
-}
-
-.company-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  text-align: center;
 }
 
 .company {
@@ -220,22 +221,6 @@ p {
   font-weight: 600;
   font-size: 1.5em;
   margin: 0;
-}
-
-.work-location {
-  color: #e6f1ff;
-  font-size: 1rem;
-  margin-left: 20px;
-  white-space: nowrap;
-}
-
-.company-logo {
-  width: 120px;
-  height: 120px;
-  object-fit: contain;
-  filter: brightness(0) invert(1);
-  margin-left: 15px;
-  padding: 10px 0;
 }
 
 .experience-title h3 {
@@ -283,27 +268,10 @@ p {
     align-items: center;
   }
 
-  .company-header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .company-info {
-    align-items: center;
-    text-align: center;
-  }
-
-  .work-location {
-    margin-left: 0;
-    margin: 5px 0;
-  }
-
   .company-logo {
-    width: 100px;
-    height: 100px;
-    margin-left: 0;
+    width: 120px;
+    height: 120px;
     margin-bottom: 10px;
-    padding: 5px 0;
   }
 
   .experience-title h3,
