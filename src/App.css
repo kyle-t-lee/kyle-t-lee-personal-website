@@ -200,8 +200,8 @@ p {
 }
 
 .company-logo {
-  width: 180px;  /* Increased from 150px */
-  height: 180px; /* Increased from 150px */
+  width: 180px;
+  height: 180px;
   object-fit: contain;
   filter: brightness(0) invert(1);
   padding: 5px 0;
@@ -269,7 +269,7 @@ p {
   }
 
   .company-logo {
-    width: 140px;  /* Increased from 120px */
+    width: 140px;
     height: 140px;
     margin-bottom: 10px;
   }
