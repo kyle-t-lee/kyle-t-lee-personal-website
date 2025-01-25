@@ -100,11 +100,7 @@ function App() {
           {/* Twitter */}
           <div className="experience-item">
             <div className="experience-header">
-              <img 
-                src={twitterLogo} 
-                alt="Twitter Logo" 
-                className="company-logo"
-              />
+              <img src={twitterLogo} alt="Twitter Logo" className="company-logo" />
               <div className="experience-title">
                 <div className="company-info">
                   <p className="company">Twitter, Inc.</p>

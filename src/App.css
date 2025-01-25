@@ -200,8 +200,8 @@ p {
 }
 
 .company-logo {
-  width: 150px;  /* Increased from 120px */
-  height: 150px; /* Increased from 120px */
+  width: 180px;  /* Increased from 150px */
+  height: 180px; /* Increased from 150px */
   object-fit: contain;
   filter: brightness(0) invert(1);
   padding: 5px 0;
@@ -269,8 +269,8 @@ p {
   }
 
   .company-logo {
-    width: 120px;
-    height: 120px;
+    width: 140px;  /* Increased from 120px */
+    height: 140px;
     margin-bottom: 10px;
   }
 
@@ -769,8 +769,8 @@ html {
   }
 
   .company-logo {
-    width: 100px;  /* Slightly smaller on mobile but still fixed */
-    height: 100px;
+    width: 140px;  /* Increased from 120px */
+    height: 140px;
     margin-right: 0;
     margin-bottom: 15px;
   }
